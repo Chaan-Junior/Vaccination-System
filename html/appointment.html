@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Care Point | Appointment </title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="../css/app_style.css">
+  <link rel="stylesheet" type="text/css" href="../css/head_foot_style.css">
+  <script type="text/javascript" src="../js/appointment.js"></script>
+
+
+<!-- HEADER -->
+
+  <div id="header">
+    <img src="../images/logo-image.PNG" alt="Webiste logo" height="125px" width="125px">
+    <a href="#home"> <img src="../images/logo-name.PNG" alt="Webiste logo Name" height="125px"> </a>
+
+    <a href="#user"> <img id="user" src="../images/user-image.PNG" alt="User Login Icon" height="80px" width="120px"></a><a href="#home">
+
+    <a href="../html/login.html"> <input id="login"  class="button1" type="button" name="login" value="LOG  IN"> </a> 
+    <a href="../html/RegistrationFinal.html"> <input id="signup" class="button2"type="button" name="signup" value="SIGN UP"> </a>
+    <div id="search">
+    <input type="search" name="search" value="search"> <input type="button" name="btn" value="SEARCH">
+    </div>
+  </div>
+
+<!-- NAVIGATION -->
+
+  <div class="nav">
+      <a href="../html/index.html"> HOME </a>
+      <a href="../html/aboutUs.html"> ABOUT </a>
+      <a href="../html/RegistrationFinal.html"> REGISTER </a>
+      
+      <div class="dropdown">
+    <button class="dropbtn"><b>APPOINTMANT</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../html/vaccines.html">Vaccination Details </a>
+      <a href="../html/FinalVaccinePoints.html">Hospital Details </a>
+      <a class="active" href="../html/appointment.html">Book Appointment</a>
+      <a href="../html/paymentPortal.html">Payment</a>
+    </div>
+   </div>
+
+      <a href="../html/contactUs.html"> CONTACT US</a>
+      <a href="../html/user.html"> USER </a>
+      <a href="../html/faq.html"> FAQ </a>
+  </div>
+
+</head>
+
+<body>
+<br>
+	<div id="container">
+    <br>
+    <form action="index.html" method="post">
+      <div id="body_header">
+    
+      <h2>Appointment Request Form</h2>
+      <p>Make your appointments more easier</p>
+
+    </div>
+      <fieldset>
+        <legend>Your basic details</legend>
+        <label for="name">Full Name*:</label>
+        <input type="text" id="name" name="user_name" placeholder="Enter your Full name" required>
+
+        <label for="mail">Email*:</label>
+        <input type="email" id="mail" name="user_email" placeholder="abc@xyz.com" required>
+
+        <label for="tel">Contact Num:</label>
+        <input type="tel" id="tel" placeholder="Include country code" name="user_num">
+
+        <label for="hospital">Nearest Hospital*:</label>
+        <select id="skype_name" name="Hos_name" placeholder="Nearest to your location" required>
+          <option value="Nawaloka">NAWALOKA HOSPITAL</option>
+          <option value="Asiri">ASIRI MEDICAL HOSPITAL</option>
+          <option value="Durdans">DURDANS HOSPITAL</option>
+          <option value="Lanka">LANKA HOSPITAL</option>
+          <option value="Royal">ROYAL HOSPITAL</option>
+          <option value="Ridgeway">LADY RIDGEWAY HOSPITAL</option>
+        </select>
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Appointment Details</legend>
+        <label for="appointment_for">Type of Vaccine*:</label>
+        <select id="appointment_for" name="appointment_for" required>
+          <option value="Pfizer">Pfizer</option>
+          <option value="Sinoform">Influenza</option>
+          <option value="Moderna">Polio</option>
+          <option value="Moderna">Chickenpox</option>
+          <option value="AstraZeneca">Rubella</option>
+          <option value="Moderna">Tetanus</option>
+          <option value="Moderna">Moderna</option>
+          <option value="Moderna">Hepatitis B</option>
+          <option value="Moderna">Sinopharm</option>
+ 
+        </select>
+        <label for="appointment_description">Appointment Description:</label>
+        <textarea id="appointment_description" name="appointment_description" placeholder="Mention here if you have any other diseases"></textarea>
+        <label for="date">Date*:</label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="time">Time*:</label>
+        <input type="time" name="time" value="" required></input>
+        <br>
+        
+      </fieldset>
+      <input id="submit" class="submit" type="submit" value="Book the Appointment" name = "submit"></br></br>
+    </form>
+  </div>
+<br>
+	<!-- FOOTER -->
+
+  <div id="footer"> 
+    <img class="image1" src="../images/footer-img-1.PNG" alt="Webiste logo Name" height="125px">
+    <img class="image2" src="../images/footer-img-2.PNG" alt="Webiste logo Name" height="125px">
+    
+    <a href="www.facebook.com"> <img class="sm1" src="../images/facebook.PNG"> </a>
+    <a href="www.gmail.com"> <img class="sm2" src="../images/gmail.PNG"> </a>
+    <a href="www.twitter.com"> <img class="sm3" src="../images/twitter.PNG"> </a>
+    <a href="www.youtube.com"> <img class="sm4" src="../images/youtube.PNG"> </a>
+    <a href="www.linkedin.com"> <img class="sm5" src="../images/linkedin.PNG"> </a>
+
+    <h4> © ALL RIGHTS RESERVED BY CARE POINT - 2022</h4>
+  </div>
+
+
+</body>
+</html>

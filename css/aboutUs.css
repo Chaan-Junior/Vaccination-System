@@ -1,0 +1,194 @@
+
+body{
+
+	background-image: linear-gradient(to right, #1C3454,#005E80,#43587B,#3F5476 ) ;
+}
+
+#heading1{
+		text-align: center;
+		background-color: #1c3454  ;
+		color: whitesmoke;
+		font-family: ;
+		
+}
+
+#heading2{
+	text-align: center;
+		background-color: #1c3454  ;
+		color: lightsteelblue;
+		font-family: ;
+		
+
+}
+
+#whotext{
+		background-color: #1c3454  ;
+		color: whitesmoke ;
+		font-style: bold;
+		font-weight: bolder;
+
+
+		border: 5px  solid #E0F1FF;
+		border-radius: 5px;
+		padding: 13px 13px 13px 20px;
+		margin:  auto;
+}
+
+#picture{
+
+}
+th{
+	background-color: #DAA21B;
+	border: 5px  solid #707788;
+		border-radius: 5px;
+		padding: 13px 13px 13px 20px;
+		margin:  auto;
+
+}
+td{
+	background-color: #DAA21B;
+	border: 5px  solid #707788;
+		border-radius: 5px;
+		padding: 13px 13px 13px 20px;
+		margin:  auto;
+
+}
+.location a:visited {
+		background-color: blue ;
+		color: white;
+
+}
+
+
+
+.part-a {
+  display: flex;
+  justify-content: center;
+}
+.part-a img {
+  width: 250px;
+  height: 150px;
+}
+#img1 {
+}
+#img2 {
+  /* margin-top: 14px; */
+  height: 175px;
+}
+.part-b {
+  display: flex;
+  justify-content: center;
+}
+.part-b a img {
+  width: 50px;
+  height: 50px;
+}
+.part-b a {
+  margin-left: 30px;
+}
+.copyRight {
+  margin-left: 39%;
+}
+
+
+
+
+/* -------------------------------------------payment page----------------------------------------------- */
+
+#set1{
+	font-family: 'poppins', sans-serif;
+	margin: 25px; padding: 25px;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-transform: capitalize;
+	transition: all .2s linear;}
+
+.payment{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	min-height: 100vh;
+	background: linear-gradient(to right, #1C3454  ,#E0F1FF );
+	padding: 20px;
+}
+
+.payment form {
+
+	padding: 20px ;
+	width: 700px;
+	background:#fff ;
+	box-shadow: 0 5px 10px;
+	margin:auto;
+  text-align: left;
+
+}
+.payment form .row{
+	display: felx;
+	flex-wrap: wrap;
+	gap: 15px;
+
+}
+.payment form .row .col{
+	flex: 1px 1px 250px;
+}
+ .inputbox .fuck {
+	cursor: pointer;
+	margin-top: 5px;
+	
+}
+
+#container{
+	border-radius: 10px;
+	background-color: white;
+	margin-bottom: 5em;
+	align-items: center;
+	width: 600px;
+	margin-left: 30%;
+	padding: 15px;
+	margin-top: 30px;
+}
+.inputbox{
+	margin-bottom: 15px;
+
+}
+.inputbox input{
+	margin-left: 5px;
+	 border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+       width: 80%;
+}
+.inputbox span{
+	margin-left: -130px;
+	color: red;
+}
+#Card-error{
+	margin-left: -230px;
+}
+.submit-btn{
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	background-color: black;
+	font-weight: 600;
+	margin-left: 35%;
+	cursor: pointer;
+}
+.submit-btn:hover{
+	background-color: grey;
+	color: white;
+	border: grey;
+}
+.head{
+justify-content: center;
+display :flex ;
+
+}
+.boddy{
+	margin-top: 15px;
+}

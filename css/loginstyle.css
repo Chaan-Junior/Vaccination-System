@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#1c3454;
+	font-family:sans-serif;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.login-box{
+	margin-top: 150px;
+	background: #fff;
+	border:5px solid #00FFFF;
+	flex-basis:400px ;
+	padding: 20px;
+}
+.login-box h1{
+	border-bottom:1px solid #ccc;
+	margin-top:0 0 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #555;
+
+}
+
+p{
+	font-size: 20px;
+	color: black;
+}
+
+input,select{
+	width: 150px;
+	padding: 15px 20px;
+	margin: 8px 0;
+	border:1px solid #ccc;
+	
+}
+
+.submit{
+  border-radius:20px;
+  outline:black;
+  background-color:#00FFFF;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.submit:hover{
+  background-color: grey;
+}
+

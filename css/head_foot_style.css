@@ -1,0 +1,207 @@
+#header{
+  position: relative;
+  background-color: whitesmoke;
+  width: 100%;
+  color: whitesmoke;
+  height: 150px;
+}
+
+#footer{
+  position: relative;
+  background-color: whitesmoke;
+  width: 100%;
+  color: #245464;
+  height: 150px;
+  top: 250%;
+}
+#logoid{
+  position: absolute;
+  top: 17px;
+  left: 2%;
+}
+
+#logonameid{
+  top: 10px;  
+  position: absolute;
+  left: 10%;
+}
+
+/* Footer -> Website Name Images */
+.image1{
+  position: absolute;
+  width: auto;
+  height: 125px;
+  left: 30%;
+}
+.image2{
+  position: absolute;
+  width: auto;
+  height: 125px;
+  left: 47%;
+  top: 5%;
+}
+/* Footer -> Social Media Images */
+.sm1{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 65%;
+  left: 35.5%;
+}
+.sm2{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 65%;
+  left: 40.5%;
+}
+.sm3{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 65%;
+  left: 45.5%;
+}
+.sm4{
+  position: absolute;
+  height: 30spx;
+  width: 30px;
+  top: 65%;
+  left: 50.5%;
+}
+.sm5{
+  position: absolute;
+  height: 30spx;
+  width: 30px;
+  top: 65%;
+  left: 55.5%;
+}
+/* Footer -> Copyright Font Size */
+#footer h4{
+  font-family: monospace;
+  color: #245464;
+  position: absolute;
+  top: 80%;
+  left: 35.5%;
+}
+
+#login{
+  position: absolute;
+  top: 27px;
+  left: 84%;
+}
+
+#signup{
+  position: absolute;
+  top: 60px;
+  left: 84%;
+}
+
+#user{
+  position: absolute;
+  left: 90%;
+  top: 10%;
+}
+/* Header -> Login & Signup Buttons */
+.button1{
+  background-color: #4b747d;
+  font-family: monospace;
+  border: none;
+  color: white;
+  padding: 6.5px 13px;
+  cursor: pointer;
+  text-align: center;
+}
+.button2{
+  background-color: #245464;
+  font-family: monospace;
+  border: none;
+  color: white;
+  padding: 6.5px 13px;
+  cursor: pointer;
+  text-align: center;
+}
+/* Navigation -> Size & linking Items */
+.nav {
+    float: none;
+    top: 150px; 
+    font-family: monospace;
+    overflow: hidden;
+    background-color: #1c3454;
+    width: 100%;
+}
+
+.nav a {
+  float:left;
+  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav a:hover {
+  background-color: #7c8f9d;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #346474;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button = booking */
+.dropbtn {
+  left: 15%;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: blue; /* nav bar color = white */
+  padding: 10px 20px;
+  background-color: inherit;
+  font-family: monospace;                                           
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #1c3454; 
+  font-family: monospace;
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: FEFEFE;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #7c8f9d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#search{
+  top: 115px;
+  position: absolute;
+  left: 80%;
+  font-family: monospace;
+}

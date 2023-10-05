@@ -1,0 +1,541 @@
+/* Header -> Selected Frame */
+#header{
+	position: absolute;
+	background-color: whitesmoke;
+	width: 100%;
+	color: whitesmoke;
+	height: 150px;
+	top: 0;
+}
+
+#logoid{
+	position: absolute;
+	top: 17px;
+	left: 2%;
+}
+
+#logonameid{
+	top: 10px;	
+	position: absolute;
+	left: 10%;
+}
+/* Footer -> Selected Frame */
+#footer{
+	position: absolute;
+	background-color: whitesmoke;
+	width: 100%;
+	color: #245464;
+	height: 150px;
+	top: 240%;
+}
+/* Footer -> Website Name Images */
+.image1{
+	position: absolute;
+	width: auto;
+	height: 125px;
+	left: 30%;
+}
+.image2{
+	position: absolute;
+	width: auto;
+	height: 125px;
+	left: 47%;
+	top: 5%;
+}
+/* Footer -> Social Media Images */
+.sm1{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 65%;
+	left: 35.5%;
+}
+.sm2{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 65%;
+	left: 40.5%;
+}
+.sm3{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 65%;
+	left: 45.5%;
+}
+.sm4{
+	position: absolute;
+	height: 30spx;
+	width: 30px;
+	top: 65%;
+	left: 50.5%;
+}
+.sm5{
+	position: absolute;
+	height: 30spx;
+	width: 30px;
+	top: 65%;
+	left: 55.5%;
+}
+/* Footer -> Copyright Font Size */
+#footer h4{
+	font-family: monospace;
+	color: #245464;
+	position: absolute;
+	top: 80%;
+	left: 35.5%;
+}
+
+#login{
+	position: absolute;
+	top: 27px;
+	left: 84%;
+}
+
+#signup{
+	position: absolute;
+	top: 60px;
+	left: 84%;
+}
+
+#user{
+	position: absolute;
+	left: 90%;
+	top: 9%;
+}
+/* Header -> Login & Signup Buttons */
+.button1{
+  background-color: #4b747d;
+  font-family: monospace;
+  border: none;
+  color: white;
+  padding: 6.5px 13px;
+  cursor: pointer;
+  text-align: center;
+}
+.button2{
+  background-color: #245464;
+  font-family: monospace;
+  border: none;
+  color: white;
+  padding: 6.5px 13px;
+  cursor: pointer;
+  text-align: center;
+  top: 20px;
+}
+/* Navigation -> Size & linking Items */
+.nav {
+    position: absolute;
+    float: none;
+    top: 150px; 
+    font-family: monospace;
+    overflow: hidden;
+    background-color: #1c3454;
+    width: 100%;
+}
+
+.nav a {
+  float:left;
+  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav a:hover {
+  background-color: #7c8f9d;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #346474;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button = booking */
+.dropbtn {
+  left: 15%;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white; /* nav bar color = white */
+  padding: 10px 20px;
+  background-color: inherit;
+  font-family: monospace;                                           
+  top: 155px;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #1c3454; 
+  font-family: monospace;
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: FEFEFE;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #7c8f9d;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+#square1{
+	position: relative;
+	background-color: #397f94;
+	top: 300px;
+	height: 50px;
+	width: 530px;
+	left: 10%;
+}
+#square2{
+	position: relative;
+	background-color: #2596be;
+	top: 270px;
+	height: 30px;
+	width: 530px;
+	left: 10%;
+}
+#square3{
+	position: relative;
+	background-color: orangered;
+	top: 300px;
+	height: 55px;
+	width: 480px;
+	left: 11.5%;
+	font-size: 45px;
+	font-family: monospace;
+	border-radius: 25px;
+	border: 1px solid;
+	padding: 3px;
+}
+
+#square3 a{
+	color: black;
+}
+#square3 a:hover{
+	color: darkgray;
+}
+
+#square4{
+	position: relative;
+	top: 330px;
+	height: 50px;
+	width: 530px;
+	left: 34%;
+}
+
+#square4 a{
+	color: #397f94;
+}
+#square4 a:hover{
+	color: #1c3454;
+}
+
+#mainimg{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+}
+
+/* Body -> Size & Position */
+#middle{
+	position: absolute;
+	left: 80%;
+	top: 180px;
+	font-family: monospace;
+}
+
+#boxcolor1{
+	background-color: #76b5c5;
+	font-family: cursive;
+	font-size: 18px;
+}
+#boxcolor2{
+	background-color: #abdbe3;
+	font-family: cursive;
+	font-size: 18	px;
+}
+
+#search{
+	top: 115px;
+	position: absolute;
+	left: 80%;
+	font-family: monospace;
+}
+
+#vaccine{
+	top: 730px;
+	position: absolute;
+	left: 9%;
+}
+
+#vaccinetext{
+	top: 0px;
+	left: 100%;
+	position: absolute;
+	font-family: cursive;
+	font-size: 15px;
+	height: 99%;
+	width: 300%;
+	background-color: #245464;
+	color: blanchedalmond;
+	line-height: 2;
+}
+
+#vaccine2{
+	top: 180%;
+	position: absolute;
+	left: 46%;
+}
+
+#vaccine2text{
+	top: 10px;
+	right: 96%;
+	position: absolute;
+	font-family: cursive;
+	font-size: 15px;
+	height: 92.5%;
+	width: 91%;
+	background-color: #245464;
+	color: blanchedalmond;
+	line-height: 2;
+}
+
+/* -------------------------------------------User Page----------------------------------------------- */
+
+
+#userprofile{
+	position: relative;
+	left: 2%;
+	top: 200px;
+}
+
+#userprofile button{
+	position: relative;
+	left: 7.5%;
+}
+
+#username{
+	position: absolute;
+	font-family: cursive;
+	font-size: 35px;
+	top: 260px;
+	left: 22%;
+	}
+
+#username box{
+	width: 100%;
+	height: 50px;
+}
+
+#userage{
+	position: absolute;
+	font-family: cursive;
+	font-size: 20px;
+	top: 320px;
+	left: 24.5%;
+}
+
+
+#userage box1{
+	width: 70%;
+	height: 30px;
+}
+#userage box2{
+	position: relative;
+	width: 70%;
+	height: 30px;
+}
+
+#useralign{
+	position: absolute;
+	left: 4%;
+	top: 73%;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#useralign a{
+	font-family: cursive;
+	font-size: 15px;
+	position: relative;
+	left: 75%;
+}
+#useralign a:hover{
+	font-family: cursive;
+	font-size: 15.5px;
+	position: relative;
+	left: 75%;
+}
+
+#logout{
+	position: absolute;
+	left: 50%;
+	background-color: #245464;
+	border-color: #245464;
+	color: white;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+#appdate{
+	position: absolute;
+	left: 66%;
+	top: 410px;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#appdate li{
+	right: 28%;
+	position: relative;
+	font-family: cursive;
+	font-size: 15px;
+	height: 22px;
+	width: auto;
+	background-color: #245464;
+	color: blanchedalmond;
+}
+
+#cancelapp{
+	position: absolute;
+	left: 9%;
+	background-color: orangered;
+	height: 6%;
+	width: 40%;
+	font-size: 15px;
+	font-family: monospace;
+	border-radius: 25px;
+	border: 1px solid;
+	padding: 2px;
+}
+
+#cancelapp a{
+	font-size: 15px;
+	color: black;
+}
+
+#cancelapp a:hover{
+	color: ghostwhite;
+	font-size: 15.5px;
+}
+
+#detailsedit{
+	position: relative;
+	font-family: cursive;
+	font-size: 15px;
+	height: 22px;
+	width: 200%;
+	background-color:whitesmoke;
+	color: black;
+}
+
+
+
+
+
+/* ----------------------------------F A Q------------------------ */
+
+#faqname1{
+	position: absolute;
+	top: 18%;
+	left: 15%;
+}
+#faqname2{
+	position: absolute;
+	left: 80%;
+}
+#faqname3{
+	position: absolute;
+	left: 150%;
+}
+
+#faqimg{
+	position: absolute;
+	top: 43%;
+	left: 25%;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-decoration: underline 4px;
+}
+
+
+.questions-container{
+		left: 20%;
+		position: absolute;
+		top: 105%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid #fff;
+}
+.question button{
+    width: 100%;
+    background-color: #8acfcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: 22px;
+    color: #003247;
+    font-weight: 700;
+    cursor: pointer;
+}
+.question p{
+    font-size: 22px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+    color: #fff;
+}
+
+/*when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}

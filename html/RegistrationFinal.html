@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Care Point | Register </title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="../css/RegistrationFinal.css">
+  <link rel="stylesheet" type="text/css" href="../css/head_foot_style.css">
+
+
+<!-- HEADER -->
+
+  <div id="header">
+    <img src="../images/logo-image.PNG" alt="Webiste logo" height="125px" width="125px">
+    <a href="#home"> <img src="../images/logo-name.PNG" alt="Webiste logo Name" height="125px"> </a>
+
+    <a href="#user"> <img id="user" src="../images/user-image.PNG" alt="User Login Icon" height="80px" width="120px"></a><a href="#home">
+
+    <a href="../html/login.html"> <input id="login"  class="button1" type="button" name="login" value="LOG  IN"> </a> 
+    <a href="../html/RegistrationFinal.html"> <input id="signup" class="button2"type="button" name="signup" value="SIGN UP"> </a>
+    <div id="search">
+    <input type="search" name="search" value="search"> <input type="button" name="btn" value="SEARCH">
+    </div>
+  </div>
+
+<!-- NAVIGATION -->
+
+  <div class="nav">
+      <a href="../html/index.html"> HOME </a>
+      <a href="../html/aboutUs.html"> ABOUT </a>
+      <a class="active" href="../html/RegistrationFinal.html"> REGISTER </a>
+      
+      <div class="dropdown">
+    <button class="dropbtn"><b>APPOINTMANT</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../html/vaccines.html">Vaccination Details </a>
+      <a href="../html/FinalVaccinePoints.html">Hospital Details </a>
+      <a href="../html/appointment.html">Book Appointment</a>
+      <a href="../html/paymentPortal.html">Payment</a>
+      <a href="../html/faq.html"> FAQ </a>
+    </div>
+   </div>
+
+      <a href="../html/contactUs.html"> CONTACT US</a>
+      <a href="../html/user.html"> USER </a>
+  </div>
+
+</head>
+
+<br>
+
+<body>
+<br>
+<form method="post" id="myform" onsubmit="return validation()">
+<div class="title"> REGISTRATION FORM </div>
+
+<div class="form">
+  <div class="input_field">
+  <lable> First Name </lable> <input type = "text" class="input" name="firstname" placeholder="First name" required>
+
+  <lable> Last Name </lable> <input type = "text" class="input" name="lastname" placeholder="Last name" required>
+
+  <lable> Gender: </lable>
+  <br>
+            <input type="radio" name="gender">
+            Male
+            <br>
+            <input type="radio" name="gender">
+            Female
+<br><br>
+  <lable> Date of Birth </lable> <input type = "date" class="input" name="birthday" required>
+
+  <lable> NIC Number </lable> <input type = "text" class="input" placeholder="NIC" name="NIC" required>
+
+  <lable> Address </lable>
+  <textarea class = "textarea" placeholder="Address" name="Address" required></textarea>
+
+  <lable> Phone Number </lable>
+  <input type = "text" class="input" placeholder="Phone number" name="phone_num" required>
+
+  <lable> Email </lable>
+  <input type = "text" class="input" placeholder="Email" name="email" required>
+
+  Username:<br>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            <br><br>
+            Password:<br>
+            <input type="password" name="user-password" id="pwd" placeholder="Enter password" required>
+            <br><br>
+            Confirm password:<br>
+            <input type="password" name="password-repeat" id="repwd" placeholder="Repeat password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}" required>
+            <br><br>
+
+  <lable> Do you have any other diseases </lable>
+  <input type = "radio" name = "choice">YES
+  <input type = "radio" name = "choice">NO
+  <br>
+  <span class = "checkmark"></span>
+  <br>
+  <lable> If "YES" Please mention </lable>
+  <textarea class = "textarea"></textarea>
+
+  <p>I confirm that the above given informations are correct</p> 
+  <input type = "checkbox" required>
+  <span class = "checkmark"></span>
+
+  <input id="submit" class="submit" type="submit" value="Submit" name = "submit"></br></br>
+</div>
+</div>
+</div>
+</form>
+
+<br>
+
+<!-- FOOTER -->
+
+  <div id="footer"> 
+    <img class="image1" src="../images/footer-img-1.PNG" alt="Webiste logo Name" height="125px">
+    <img class="image2" src="../images/footer-img-2.PNG" alt="Webiste logo Name" height="125px">
+    
+    <a href="www.facebook.com"> <img class="sm1" src="../images/facebook.PNG"> </a>
+    <a href="www.gmail.com"> <img class="sm2" src="../images/gmail.PNG"> </a>
+    <a href="www.twitter.com"> <img class="sm3" src="../images/twitter.PNG"> </a>
+    <a href="www.youtube.com"> <img class="sm4" src="../images/youtube.PNG"> </a>
+    <a href="www.linkedin.com"> <img class="sm5" src="../images/linkedin.PNG"> </a>
+
+    <h4> © ALL RIGHTS RESERVED BY CARE POINT - 2022</h4>
+  </div>
+
+
+</body>
+</html>

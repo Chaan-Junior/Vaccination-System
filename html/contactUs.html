@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Care Point | Contact Us </title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/contact_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/head_foot_style.css">
+	<script type="text/javascript" src="../js/contactUs.js"></script>
+
+
+<!-- HEADER -->
+
+	<div id="header">
+		<img src="../images/logo-image.PNG" alt="Webiste logo" height="125px" width="125px">
+		<a href="#home"> <img src="../images/logo-name.PNG" alt="Webiste logo Name" height="125px"> </a>
+
+		<a href="#user"> <img id="user" src="../images/user-image.PNG" alt="User Login Icon" height="80px" width="120px"></a><a href="#home">
+
+		<a href="../html/login.html"> <input id="login"  class="button1" type="button" name="login" value="LOG  IN"> </a>	
+		<a href="../html/RegistrationFinal.html"> <input id="signup" class="button2"type="button" name="signup" value="SIGN UP"> </a>
+		<div id="search">
+		<input type="search" name="search" value="search"> <input type="button" name="btn" value="SEARCH">
+		</div>
+	</div>
+
+<!-- NAVIGATION -->
+
+	<div class="nav">
+  		<a href="../html/index.html"> HOME </a>
+  		<a href="../html/aboutUs.html"> ABOUT </a>
+  		<a href="../html/RegistrationFinal.html"> REGISTER </a>
+  		
+  		<div class="dropdown">
+    <button class="dropbtn"><b>APPOINTMANT</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+   	  <a href="../html/vaccines.html">Vaccination Details </a>
+      <a href="../html/FinalVaccinePoints.html">Hospital Details </a>
+      <a href="../html/appointment.html">Book Appointment</a>
+      <a href="../html/paymentPortal.html">Payment</a>
+    </div>
+   </div>
+
+  		<a class="active" href="../html/contactUs.html"> CONTACT US</a>
+  		<a href="../html/user.html"> USER </a>
+  		<a href="../html/faq.html"> FAQ </a>
+	</div>
+
+</head>
+
+<br>
+<body>
+	<br>
+	 <div class="form">
+	 	
+      <form method="post" id="myform">
+      	<h1> Contact us </h1>
+        <h2>We are open for any suggestions. If you have questions or just want to get in touch, use the from below. We look forward to hearing from you! </h2>
+        <br>
+        <label class="textb">Full name</label>
+        <input  class="texta" type="text" name="fullname" id = "fullname" placeholder="Full name" required>
+        
+        <label class="textb">Email</label>
+        <input  class="texta" type="email" name="email" id = "email" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+
+        <label class="textb">Phone Number</label> 
+        <input  class="texta" type="tel" name="phone" id = "phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+        <label class="textb">Please enter your Message</label>
+        <input rows="6" cols="50" class="texta" name="question" id = "question" placeholder="Write your enquiries" required></textarea>
+
+         <div id="error_message"></div>
+
+        <input id="submit" class="submit" type="submit" onclick="showalert();" value="Submit" name = "submit"></br></br>
+
+        <input id = "reset" class="reset" type="reset" value="Reset">
+
+      </form>
+    </div>
+        <br>
+
+	<!-- FOOTER -->
+
+	<div id="footer">	
+		<img class="image1" src="../images/footer-img-1.PNG" alt="Webiste logo Name" height="125px">
+		<img class="image2" src="../images/footer-img-2.PNG" alt="Webiste logo Name" height="125px">
+		
+		<a href="www.facebook.com"> <img class="sm1" src="../images/facebook.PNG"> </a>
+		<a href="www.gmail.com"> <img class="sm2" src="../images/gmail.PNG"> </a>
+		<a href="www.twitter.com"> <img class="sm3" src="../images/twitter.PNG"> </a>
+		<a href="www.youtube.com"> <img class="sm4" src="../images/youtube.PNG"> </a>
+		<a href="www.linkedin.com"> <img class="sm5" src="../images/linkedin.PNG"> </a>
+
+		<h4> © ALL RIGHTS RESERVED BY CARE POINT - 2022</h4>
+	</div>
+
+
+</body>
+</html>
